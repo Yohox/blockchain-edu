@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "studentContractAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "studentAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					}
+				],
+				"name": "modifyStudentScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"w2/2/teacher.sol": "Teacher"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"w2/2/score.sol": {
+			"keccak256": "0xe9eb2f18edd089391496dc7a4e05ed4fea143a14daa0641c1cd3e854f6497833",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed5799d120c4da19927a4b1d4418f20e710b9d385ec0227f498b9f2c68abfe47",
+				"dweb:/ipfs/QmQjgL5ME9qdy57ZaR8rQhgYJ7tepgQYjT4YDG7tJ4Jmau"
+			]
+		},
+		"w2/2/teacher.sol": {
+			"keccak256": "0xf140592489332187909a5f926948418381353ced90caac37e3c32a9716b4b16c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6135cb94cb39c2d89f4df2f71ebc5d4b9508bbc5a40a78fd7b8dfdde908ccdbe",
+				"dweb:/ipfs/QmTSDwphJ599ZgTSxenEQivg9fHULiCTLpoE7XWUNsQMRi"
+			]
+		}
+	},
+	"version": 1
+}

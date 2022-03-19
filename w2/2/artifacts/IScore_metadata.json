@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "studentAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					}
+				],
+				"name": "modifyScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"w2/2/score.sol": "IScore"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"w2/2/score.sol": {
+			"keccak256": "0xe9eb2f18edd089391496dc7a4e05ed4fea143a14daa0641c1cd3e854f6497833",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed5799d120c4da19927a4b1d4418f20e710b9d385ec0227f498b9f2c68abfe47",
+				"dweb:/ipfs/QmQjgL5ME9qdy57ZaR8rQhgYJ7tepgQYjT4YDG7tJ4Jmau"
+			]
+		}
+	},
+	"version": 1
+}
